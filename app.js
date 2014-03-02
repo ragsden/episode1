@@ -11,5 +11,5 @@ var http = require('http');
 http.createServer(function (req, res) {
 console.log("Hello word");
 res.end();
-}).listen(Number(process.env.PORT || 5000), '127.0.0.1');
+}).listen(Number(process.env.PORT || 5000));
 console.log('Server running at http://127.0.0.1:3000/');
