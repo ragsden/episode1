@@ -1,5 +1,5 @@
 language: node_js
 node_js:
   - "0.10.15"
-build_env: windows2012
+build_env: python-2.7
 email: raghu@shippable.com
